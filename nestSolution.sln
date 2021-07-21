@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestSolution.Data", "nestSolution.Data\nestSolution.Data.csproj", "{D1EC87AF-227A-40E8-ADB4-2EFAC0EC3D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestSolution.Application", "nestSolution.Application\nestSolution.Application.csproj", "{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{574232B0-8BB1-4162-A8B6-16234B55E9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{574232B0-8BB1-4162-A8B6-16234B55E9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{574232B0-8BB1-4162-A8B6-16234B55E9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EC87AF-227A-40E8-ADB4-2EFAC0EC3D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EC87AF-227A-40E8-ADB4-2EFAC0EC3D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EC87AF-227A-40E8-ADB4-2EFAC0EC3D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EC87AF-227A-40E8-ADB4-2EFAC0EC3D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
