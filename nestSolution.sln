@@ -3,16 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestSolution.WebApp", "nestSolution.WebApp\nestSolution.WebApp.csproj", "{574232B0-8BB1-4162-A8B6-16234B55E9F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nestSolution.WebApp", "nestSolution.WebApp\nestSolution.WebApp.csproj", "{574232B0-8BB1-4162-A8B6-16234B55E9F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D1C908D-FA63-481A-B88E-5C8BC453DFBC}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestSolution.Data", "nestSolution.Data\nestSolution.Data.csproj", "{D1EC87AF-227A-40E8-ADB4-2EFAC0EC3D29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nestSolution.Data", "nestSolution.Data\nestSolution.Data.csproj", "{D1EC87AF-227A-40E8-ADB4-2EFAC0EC3D29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestSolution.Application", "nestSolution.Application\nestSolution.Application.csproj", "{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nestSolution.Application", "nestSolution.Application\nestSolution.Application.csproj", "{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestSolution.Utilities", "nestSolution.Utilities\nestSolution.Utilities.csproj", "{5493F64F-D625-418D-B4B1-5EC67DCF6B97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5493F64F-D625-418D-B4B1-5EC67DCF6B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5493F64F-D625-418D-B4B1-5EC67DCF6B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5493F64F-D625-418D-B4B1-5EC67DCF6B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5493F64F-D625-418D-B4B1-5EC67DCF6B97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

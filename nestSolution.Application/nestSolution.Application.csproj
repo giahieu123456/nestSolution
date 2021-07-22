@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\nestSolution.Data\nestSolution.Data.csproj" />
+    <ProjectReference Include="..\nestSolution.Utilities\nestSolution.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
