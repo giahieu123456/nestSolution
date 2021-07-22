@@ -1,10 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\nestSolution.Application\nestSolution.Application.csproj" />
     <ProjectReference Include="..\nestSolution.Data\nestSolution.Data.csproj" />
     <ProjectReference Include="..\nestSolution.Utilities\nestSolution.Utilities.csproj" />
     <ProjectReference Include="..\nestSolution.ViewModel\nestSolution.ViewModels.csproj" />
