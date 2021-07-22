@@ -1,6 +1,5 @@
 ﻿
 using nestSolution.ViewModels.Catalog.Products;
-using nestSolution.ViewModels.Catalog.Products.Manage;
 using nestSolution.ViewModels.Common;
 using System;
 using System.Collections.Generic;
@@ -21,7 +20,7 @@ namespace nestSolution.Application.Catalog.Products
 
         Task<List<ProductViewModel>>GetAll();
 
-        Task<PagedResult<ProductViewModel>> GetAllPaging(GetProductPagingRequest request);
+        Task<PagedResult<ProductViewModel>> GetAllPaging(GetManageProductPagingRequest request);
        
     }
 }

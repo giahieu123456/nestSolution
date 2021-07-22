@@ -1,7 +1,6 @@
 ﻿
 using nestSolution.Data.EF;
 using nestSolution.ViewModels.Catalog.Products;
-using nestSolution.ViewModels.Catalog.Products.Manage;
 using nestSolution.ViewModels.Common;
 using System;
 using System.Collections.Generic;
@@ -38,7 +37,7 @@ namespace nestSolution.Application.Catalog.Products
             throw new NotImplementedException();
         }
 
-        public Task<PagedResult<ProductViewModel>> GetAllPaging(GetProductPagingRequest request)
+        public Task<PagedResult<ProductViewModel>> GetAllPaging(GetManageProductPagingRequest request)
         {
             throw new NotImplementedException();
         }

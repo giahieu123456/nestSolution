@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace nestSolution.ViewModels.Catalog.Products.Manage
+namespace nestSolution.ViewModels.Catalog.Products
 {
     public class ProductUpdateRequest
     {

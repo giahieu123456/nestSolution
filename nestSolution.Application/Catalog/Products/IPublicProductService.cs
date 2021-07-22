@@ -1,7 +1,6 @@
 ﻿
 
 using nestSolution.ViewModels.Catalog.Products;
-using nestSolution.ViewModels.Catalog.Products.Manage;
 using nestSolution.ViewModels.Common;
 using System;
 using System.Collections.Generic;
@@ -12,6 +11,6 @@ namespace nestSolution.Application.Catalog.Products
 {
     public interface IPublicProductService
     {
-       Task<PagedResult<ProductViewModel>> GetAllbyCategoryId(GetProductPagingRequest request);
+       Task<PagedResult<ProductViewModel>> GetAllbyCategoryId(GetPublicProductPagingRequest request);
     }
 }

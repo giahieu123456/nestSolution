@@ -4,9 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace nestSolution.ViewModels.Catalog.Products.Public
+namespace nestSolution.ViewModels.Catalog.Products
 {
-    public class GetProductPagingRequest : PagingRequestBase
+    public class GetPublicProductPagingRequest : PagingRequestBase
     {
          public int? categoryId { get; set; }
     }
