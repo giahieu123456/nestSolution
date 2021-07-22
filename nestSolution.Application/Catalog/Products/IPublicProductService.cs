@@ -1,7 +1,8 @@
 ﻿
-using nestSolution.Application.Catalog.Products.Dtos;
-using nestSolution.Application.Catalog.Products.Dtos.Public;
-using nestSolution.Application.Dtos;
+
+using nestSolution.ViewModels.Catalog.Products;
+using nestSolution.ViewModels.Catalog.Products.Manage;
+using nestSolution.ViewModels.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -1,11 +1,12 @@
-﻿using nestSolution.Application.Dtos;
+﻿
+using nestSolution.ViewModels.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace nestSolution.Application.Catalog.Products.Dtos.Manage
+namespace nestSolution.ViewModels.Catalog.Products.Manage
 {
-    public class GetProductPagingRequest: PagingRequestBase
+    public class GetProductPagingRequest : PagingRequestBase
     {
         public string Keyword { get; set; }
 

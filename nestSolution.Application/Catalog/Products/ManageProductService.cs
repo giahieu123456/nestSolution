@@ -1,7 +1,8 @@
-﻿using nestSolution.Application.Catalog.Products.Dtos;
-using nestSolution.Application.Catalog.Products.Dtos.Manage;
-using nestSolution.Application.Dtos;
+﻿
 using nestSolution.Data.EF;
+using nestSolution.ViewModels.Catalog.Products;
+using nestSolution.ViewModels.Catalog.Products.Manage;
+using nestSolution.ViewModels.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -42,14 +43,17 @@ namespace nestSolution.Application.Catalog.Products
             throw new NotImplementedException();
         }
 
+
         public Task<int> Update(ProductUpdateRequest request)
         {
             throw new NotImplementedException();
         }
 
+
         public Task<bool> UpdatePrice(int ProductId, decimal newPrice)
         {
             throw new NotImplementedException();
         }
+
     }
 }

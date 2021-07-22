@@ -1,7 +1,6 @@
-﻿using nestSolution.Application.Catalog.Products.Dtos;
-using nestSolution.Application.Catalog.Products.Dtos.Public;
-using nestSolution.Application.Dtos;
-using nestSolution.Data.EF;
+﻿using nestSolution.ViewModels.Catalog.Products;
+using nestSolution.ViewModels.Catalog.Products.Manage;
+using nestSolution.ViewModels.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,12 +10,9 @@ namespace nestSolution.Application.Catalog.Products
 {
     public class PublicProductService : IPublicProductService
     {
-        private readonly NestDbContext _context;
-        public PublicProductService(NestDbContext context)
-        {
-            _context = context;
-        }
-        Task<PagedResult<ProductViewModel>> IPublicProductService.GetAllbyCategoryId(GetProductPagingRequest request)
+        public int categoryId { get; set; }
+
+        public Task<PagedResult<ProductViewModel>> GetAllbyCategoryId(GetProductPagingRequest request)
         {
             throw new NotImplementedException();
         }

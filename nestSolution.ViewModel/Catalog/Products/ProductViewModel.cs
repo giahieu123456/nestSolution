@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace nestSolution.Application.Catalog.Products.Dtos
+namespace nestSolution.ViewModels.Catalog.Products
 {
     public class ProductViewModel
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace nestSolution.Application.Dtos
+namespace nestSolution.ViewModels.Common
 {
     public class PagedResult<T>
     {

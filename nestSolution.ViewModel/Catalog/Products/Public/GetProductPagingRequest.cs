@@ -1,9 +1,10 @@
-﻿using nestSolution.Application.Dtos;
+﻿
+using nestSolution.ViewModels.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace nestSolution.Application.Catalog.Products.Dtos.Public
+namespace nestSolution.ViewModels.Catalog.Products.Public
 {
     public class GetProductPagingRequest : PagingRequestBase
     {
