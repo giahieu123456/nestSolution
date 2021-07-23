@@ -9,30 +9,22 @@ using System.Threading.Tasks;
 
 namespace nestSolution.Application.Catalog.Products
 {
-    class ManageProductService : IManageproductService
+    public class ManageProductService : IManageproductService
     {
         private readonly NestDbContext _context;
         public ManageProductService(NestDbContext context)
         {
             _context = context;
         }
+
         public Task<int> Create(ProductCreateRequest request)
         {
             throw new NotImplementedException();
 
         }
-
-        public Task<int> Delete(int ProductId)
-        {
-            throw new NotImplementedException();
-        }
+   
 
         public Task<List<ProductViewModel>> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<PagedResult<ProductViewModel>> GetAllPaging(string keyword, int pageIndex, int pageSize)
         {
             throw new NotImplementedException();
         }
@@ -42,6 +34,10 @@ namespace nestSolution.Application.Catalog.Products
             throw new NotImplementedException();
         }
 
+        public Task<int> GetById(int productId)
+        {
+            throw new NotImplementedException();
+        }
 
         public Task<int> Update(ProductUpdateRequest request)
         {
@@ -50,6 +46,11 @@ namespace nestSolution.Application.Catalog.Products
 
 
         public Task<bool> UpdatePrice(int ProductId, decimal newPrice)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> Delete(int ProductId)
         {
             throw new NotImplementedException();
         }

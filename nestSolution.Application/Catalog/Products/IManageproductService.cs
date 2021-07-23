@@ -10,7 +10,11 @@ namespace nestSolution.Application.Catalog.Products
 {
     public interface IManageproductService
     {
+       
+
         Task<int> Create(ProductCreateRequest request);
+
+        Task<int> GetById(int productId);
 
         Task<int> Update( ProductUpdateRequest request);
 

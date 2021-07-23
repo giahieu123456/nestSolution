@@ -33,6 +33,8 @@ namespace nestSolution.BackendApi
 
             // Declare DI
             services.AddTransient<IPublicProductService, PublicProductService>();
+            services.AddTransient<IManageproductService, ManageProductService>();
+
 
             services.AddControllersWithViews();
             services.AddSwaggerGen(c =>

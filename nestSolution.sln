@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nestSolution.WebApp", "nestSolution.WebApp\nestSolution.WebApp.csproj", "{574232B0-8BB1-4162-A8B6-16234B55E9F4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D1C908D-FA63-481A-B88E-5C8BC453DFBC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Items", "0.Solution Items", "{3D1C908D-FA63-481A-B88E-5C8BC453DFBC}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
@@ -14,11 +14,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nestSolution.Data", "nestSo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nestSolution.Application", "nestSolution.Application\nestSolution.Application.csproj", "{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestSolution.Utilities", "nestSolution.Utilities\nestSolution.Utilities.csproj", "{5493F64F-D625-418D-B4B1-5EC67DCF6B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nestSolution.Utilities", "nestSolution.Utilities\nestSolution.Utilities.csproj", "{5493F64F-D625-418D-B4B1-5EC67DCF6B97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestSolution.ViewModels", "nestSolution.ViewModel\nestSolution.ViewModels.csproj", "{02EB1F62-23F1-4DBD-9C75-1753307A45FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nestSolution.ViewModels", "nestSolution.ViewModel\nestSolution.ViewModels.csproj", "{02EB1F62-23F1-4DBD-9C75-1753307A45FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nestSolution.BackendApi", "nestSolution.BackendApi\nestSolution.BackendApi.csproj", "{15FFA315-9A15-4DF0-BF4F-992EA5CD1F6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nestSolution.BackendApi", "nestSolution.BackendApi\nestSolution.BackendApi.csproj", "{15FFA315-9A15-4DF0-BF4F-992EA5CD1F6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Infrastructure", "1.Infrastructure", "{6E5329B6-F212-43F0-A1A2-F456CE3BD59F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{8ED4707B-6272-4ED9-984F-550116552179}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Host", "3.Host", "{ADA0D84D-50D2-433E-9137-378F921C3CCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +59,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{574232B0-8BB1-4162-A8B6-16234B55E9F4} = {ADA0D84D-50D2-433E-9137-378F921C3CCC}
+		{D1EC87AF-227A-40E8-ADB4-2EFAC0EC3D29} = {8ED4707B-6272-4ED9-984F-550116552179}
+		{5C1E3DB8-3C27-4ED1-9B84-47B1A9930910} = {8ED4707B-6272-4ED9-984F-550116552179}
+		{5493F64F-D625-418D-B4B1-5EC67DCF6B97} = {6E5329B6-F212-43F0-A1A2-F456CE3BD59F}
+		{02EB1F62-23F1-4DBD-9C75-1753307A45FA} = {6E5329B6-F212-43F0-A1A2-F456CE3BD59F}
+		{15FFA315-9A15-4DF0-BF4F-992EA5CD1F6B} = {ADA0D84D-50D2-433E-9137-378F921C3CCC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E424936-DCC2-4C35-80C9-4A2BFFF325D1}
