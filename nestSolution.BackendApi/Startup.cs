@@ -32,9 +32,8 @@ namespace nestSolution.BackendApi
             options.UseSqlServer(Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
 
             // Declare DI
-            services.AddTransient<IPublicProductService, PublicProductService>();
-            services.AddTransient<IManageproductService, ManageProductService>();
-
+            services.AddTransient<PublicProductService>();
+            services.AddTransient<ManageProductService>();
 
             services.AddControllersWithViews();
             services.AddSwaggerGen(c =>

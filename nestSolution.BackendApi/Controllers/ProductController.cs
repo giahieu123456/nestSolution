@@ -13,11 +13,11 @@ namespace nestSolution.BackendApi.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly IPublicProductService _publicProductService;
-        private readonly IManageproductService _mangageProductService;
+        private readonly PublicProductService _publicProductService;
+        private readonly ManageProductService _mangageProductService;
 
-        public ProductController(IPublicProductService publicProductService,
-            IManageproductService manageproductService)
+        public ProductController(PublicProductService publicProductService,
+            ManageProductService manageproductService)
         {
             _publicProductService = publicProductService;
             _mangageProductService = manageproductService;
